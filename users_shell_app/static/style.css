@@ -1,15 +1,15 @@
-*{
+* {
     margin:0;
     padding:0;
 }
 
-html{
+html {
     font-size:10px;
     box-sizing: border-box;
     background-color: lightskyblue;
 }
 
-h1{
+h1 {
     text-align: center;
     font-size:5rem;
     color:black;
@@ -17,33 +17,39 @@ h1{
     padding:3rem;
 }
 
-#wrapper{
-    display:flex;
-    justify-content: center;
+p {
+    text-align: center;
+    font-size:3rem;
 }
 
-table{
+#wrapper {
+    display:flex;
+    justify-content: center;
+    padding:2rem;
+}
+
+table {
     border-collapse: collapse;
     border-bottom: .1rem solid black;
     text-align: center;
 }
 
-td{
+td {
     padding:1rem 3rem;
 }
 
-th{
+th {
     font-size:3rem;
     padding:1rem;
     background-color: lightpink;
     -webkit-text-stroke: .02rem white;
 }
 
-th, td{
+th, td {
     border:.2rem solid black;
 }
 
-td{
+td {
     font-size:2rem;
 }
 
@@ -55,28 +61,28 @@ tr:nth-child(odd) {
     background-color: white;
 }
 
-#register{
+#register {
     display:flex;
     justify-content:center;
     font-size:2.5rem;
 }
 
 
-label, input{
+label, input {
     padding-bottom:.5rem;
 }
 
-input{
+input {
     margin-bottom:1rem;
     padding:.5rem;
 }
 
-form{
+form {
     display:flex;
     flex-direction:column;
 }
 
-button{
+button {
     font-size:2rem;
     margin-top:1rem;
     margin-bottom:5rem;
